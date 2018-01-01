@@ -18,8 +18,21 @@
     <string name="museums">Museums</string>
     <string name="cuisines">Cuisines</string>
 
+    <!--Nature Categories-->
+    <string name="beaches">Beaches</string>
+    <string name="mountains">Mountains</string>
+    <string name="islands">Islands</string>
+
+    <!--Landmark Categories-->
+    <string name="churches">Churches</string>
+    <string name="farms">Farms</string>
+    <string name="lighthouses">Lighthouses</string>
+
     <!--Paragraphs-->
     <string name="paragraph_01">
         <![CDATA[Batangas, officially known as the Province of Batangas (Filipino: Lalawigan ng Batangas) is a province in the Philippines located in the Calabarzon region in Luzon. Its capital is the city of Batangas and is bordered by the provinces of Cavite and Laguna to the north and Quezon to the east. Across the Verde Island Passages to the south is the island of Mindoro and to the west lies the South China Sea. Poetically, Batangas is often referred to by its ancient name Kumintáng.]]>
     </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

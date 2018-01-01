@@ -10,13 +10,15 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 class CategoryAdapter extends FragmentPagerAdapter {
+
     private Context context;
     private int numberCategories;
     private CategoryTypeEnum type;
 
     enum CategoryTypeEnum{
         NATURES,
-        MUSEUMS,
+        LANDMARKS,
+        MUSEUMS, //TODO
         CUISINES
     }
 
@@ -30,21 +32,57 @@ class CategoryAdapter extends FragmentPagerAdapter {
         super(fm);
         this.context = context;
         this.type = type;
+
+        switch(this.type){
+            case NATURES:
+                this.numberCategories = 3;
+                break;
+
+            case LANDMARKS:
+                this.numberCategories = 3;
+                break;
+
+            case CUISINES:
+        }
     }
 
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
+        switch(this.type){
+            case NATURES:
+                return getNatureItem(position);
 
-        } else if (position == 1) {
+            case LANDMARKS:
+                return getLandmarkItem(position);
 
-        } else if (position == 2) {
-
-        } else {
-
+            case CUISINES:
+                return getNatureItem(position); //TODO
         }
+        return null;
+    }
 
+    private Fragment getNatureItem(int position){
+        switch(position){
+            case 0:
+                return new BeachFragment();
+            case 1:
+                return new MountainFragment();
+            case 2:
+                return new IslandFragment();
+        }
+        return null;
+    }
+
+    private Fragment getLandmarkItem(int position){
+        switch(position){
+            case 0:
+                return new ChurchFragment();
+            case 1:
+                return new FarmFragment();
+            case 2:
+                return new IslandFragment();
+        }
         return null;
     }
 
@@ -53,24 +91,52 @@ class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 4;
+        return this.numberCategories;
     }
 
     // This determines the title for each tab
     @Override
     public CharSequence getPageTitle(int position) {
+        switch(this.type){
+            case NATURES:
+                return getNaturePageTitle(position);
+
+            case LANDMARKS:
+                return getLandmarkPageTitle(position); //TODO
+
+            case CUISINES:
+                return getNaturePageTitle(position); //TODO
+        }
+        return null;
+    }
+
+    private CharSequence getNaturePageTitle(int position){
         // Generate title based on item position
         switch (position) {
             case 0:
+                return this.context.getString(R.string.beaches);
 
             case 1:
+                return this.context.getString(R.string.mountains);
 
             case 2:
-
-            case 3:
-
-            default:
-                return null;
+                return this.context.getString(R.string.islands);
         }
+        return null;
+    }
+
+    private CharSequence getLandmarkPageTitle(int position){
+        // Generate title based on item position
+        switch (position) {
+            case 0:
+                return this.context.getString(R.string.churches);
+
+            case 1:
+                return this.context.getString(R.string.farms);
+
+            case 2:
+                return this.context.getString(R.string.lighthouses);
+        }
+        return null;
     }
 }

@@ -13,8 +13,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    private final static int HOME = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        onNavigationItemSelected(navigationView.getMenu().getItem(HOME).setChecked(true));
     }
 
     @Override
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.fragment_container, new HomeFragment())
                     .commit();
             getSupportActionBar().setTitle(getString(R.string.batangas));
+
         } else if (id == R.id.nav_natures) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new NatureFragment())
@@ -63,6 +66,10 @@ public class MainActivity extends AppCompatActivity
             getSupportActionBar().setTitle(getString(R.string.natures));
 
         } else if (id == R.id.nav_landmarks) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new LandmarkFragment())
+                    .commit();
+            getSupportActionBar().setTitle(getString(R.string.landmarks));
 
         } else if (id == R.id.nav_museums) {
 
