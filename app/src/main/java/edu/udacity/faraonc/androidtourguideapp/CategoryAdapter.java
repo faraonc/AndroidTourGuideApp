@@ -18,7 +18,7 @@ class CategoryAdapter extends FragmentPagerAdapter {
     enum CategoryTypeEnum{
         NATURES,
         LANDMARKS,
-        MUSEUMS, //TODO
+        MUSEUMS,
         CUISINES
     }
 
@@ -42,7 +42,12 @@ class CategoryAdapter extends FragmentPagerAdapter {
                 this.numberCategories = 3;
                 break;
 
+            case MUSEUMS:
+                this.numberCategories = 3;
+                break;
+
             case CUISINES:
+                this.numberCategories = 2;
         }
     }
 
@@ -56,8 +61,11 @@ class CategoryAdapter extends FragmentPagerAdapter {
             case LANDMARKS:
                 return getLandmarkItem(position);
 
+            case MUSEUMS:
+                return getMuseumItem(position);
+
             case CUISINES:
-                return getNatureItem(position); //TODO
+                return getCuisineItem(position);
         }
         return null;
     }
@@ -81,7 +89,29 @@ class CategoryAdapter extends FragmentPagerAdapter {
             case 1:
                 return new FarmFragment();
             case 2:
-                return new IslandFragment();
+                return new LighthouseFragment();
+        }
+        return null;
+    }
+
+    private Fragment getMuseumItem(int position){
+        switch(position){
+            case 0:
+                return new HistoryFragment();
+            case 1:
+                return new SpecialtyFragment();
+            case 2:
+                return new ArtFragment();
+        }
+        return null;
+    }
+
+    private Fragment getCuisineItem(int position){
+        switch(position){
+            case 0:
+                return new RestaurantFragment();
+            case 1:
+                return new FoodFragment();
         }
         return null;
     }
@@ -102,10 +132,13 @@ class CategoryAdapter extends FragmentPagerAdapter {
                 return getNaturePageTitle(position);
 
             case LANDMARKS:
-                return getLandmarkPageTitle(position); //TODO
+                return getLandmarkPageTitle(position);
+
+            case MUSEUMS:
+                return getMuseumPageTitle(position);
 
             case CUISINES:
-                return getNaturePageTitle(position); //TODO
+                return getCuisinePageTitle(position);
         }
         return null;
     }
@@ -136,6 +169,33 @@ class CategoryAdapter extends FragmentPagerAdapter {
 
             case 2:
                 return this.context.getString(R.string.lighthouses);
+        }
+        return null;
+    }
+
+    private CharSequence getMuseumPageTitle(int position){
+        // Generate title based on item position
+        switch (position) {
+            case 0:
+                return this.context.getString(R.string.history);
+
+            case 1:
+                return this.context.getString(R.string.specialty);
+
+            case 2:
+                return this.context.getString(R.string.art);
+        }
+        return null;
+    }
+
+    private CharSequence getCuisinePageTitle(int position){
+        // Generate title based on item position
+        switch (position) {
+            case 0:
+                return this.context.getString(R.string.restaurants);
+
+            case 1:
+                return this.context.getString(R.string.foods);
         }
         return null;
     }

@@ -72,8 +72,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportActionBar().setTitle(getString(R.string.landmarks));
 
         } else if (id == R.id.nav_museums) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new MuseumFragment())
+                    .commit();
+            getSupportActionBar().setTitle(getString(R.string.museums));
 
         } else if (id == R.id.nav_cuisines) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new CuisineFragment())
+                    .commit();
+            getSupportActionBar().setTitle(getString(R.string.cuisines));
 
         }
 
