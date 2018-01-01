@@ -1,8 +1,25 @@
 <resources>
-    <string name="app_name">AndroidTourGuideApp</string>
+    <string name="app_name">Ala Eh Batangas</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+
+    <string name="placeholder">PLACEHOLDER</string>
+
+    <!--Drawer Header-->
+    <string name="batangas">Batangas</string>
+    <string name="philippines">Philippines</string>
+
+    <!--Drawer Categories-->
+    <string name="home">Home</string>
+    <string name="natures">Natures</string>
+    <string name="landmarks">Landmarks</string>
+    <string name="museums">Museums</string>
+    <string name="cuisines">Cuisines</string>
+
+    <!--Paragraphs-->
+    <string name="paragraph_01">
+        <![CDATA[Batangas, officially known as the Province of Batangas (Filipino: Lalawigan ng Batangas) is a province in the Philippines located in the Calabarzon region in Luzon. Its capital is the city of Batangas and is bordered by the provinces of Cavite and Laguna to the north and Quezon to the east. Across the Verde Island Passages to the south is the island of Mindoro and to the west lies the South China Sea. Poetically, Batangas is often referred to by its ancient name Kumintáng.]]>
+    </string>
 </resources>
