@@ -134,7 +134,7 @@
     <string-array name="humba">
         <item>Humba</item>
         <item>Batangas City</item>
-        <item><![CDATA[   ]]></item>
+        <item><![CDATA[Humba is a sweet pork dish that resembles the famous pork adobo in terms of appearance. This is popular in the southern parts of the Philippines and is considered as one of the delicacies of the region. Pork belly, pork hocks, and pork ham are the 3 most common pig parts used to make this delightful masterpiece.]]></item>
     </string-array>
 
     <string-array name="lomi">
@@ -269,13 +269,13 @@
     </string-array>
 
     <string-array name="butch_seafood_grill">
-        <item>Butch Seafood \u0022 Grill Restaurant</item>
+        <item>Butch Seafood and Grill Restaurant</item>
         <item>Alangilan, Batangas City</item>
         <item><![CDATA[Authentic Filipino favorites are in their menu. The family's favorite is Pinaputok na Tilapia and Brownie ala Mode. Both are definitely a must try. Plus factors for the nice interior, spacious parking and clean comfort room.]]></item>
     </string-array>
 
     <string-array name="rose_grace_restaurant">
-        <item>Rose \u0022 Grace Restaurant</item>
+        <item>Rose and Grace Restaurant</item>
         <item>Batangas, Santo Tomas</item>
         <item><![CDATA[Rose & Grace is always a place to dine when travelling in or to Batangas. While resto can be warm, noisy and crowded for a meal, it remains popular and a default place to dine for lunch, dinner or even a merienda/snack. Bulalo is always a must to order but there are lots of choices from the counter. While it may not have the same "home cooking" feel, the offerings are safe and above average.]]></item>
     </string-array>
