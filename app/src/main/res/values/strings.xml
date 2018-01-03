@@ -45,102 +45,88 @@
     <!--Art Entries-->
     <string-array name="galleria_taal">
         <item>Galleria Taal</item>
-        <item>Taal</item>
-        <item>60 Calle M.Agoncillo, Taal, Luzon 4208, Philippines</item>
+        <item>60 Calle M.Agoncillo, Taal</item>
         <item><![CDATA[Photographer's heaven. Filipino culture lover's stop. Galleria Taal is a humble museum of Taal, Batangas that will offer you the Tagalog's classic lifestyle house during the Spanish era and now houses to a lot of photographs/camera that shaped our culture today. Come and see this classic house with full of cultural treasures that helped to shape our culture today!]]></item>
     </string-array>
 
     <!--Beach Entries-->
     <string-array name="masasa_beach">
         <item>Masasa Beach</item>
-        <item>Batangas City</item>
-        <item>Batangas to Tingloy Island, Batangas City, Luzon 4200, Philippines</item>
+        <item>Tingloy Island, Batangas City</item>
         <item><![CDATA[A beach with crystal clear water, white sand and beautiful corals. Masasa beach offers affordable accommodations, and lots of activities you can enjoy like swimming and snorkeling. They offer use of vest and goggles for those who want to see the beauty under the sea. You can also hike to Mag-asawang Bato if you want to see the whole shore of the beach. In addition to that, they have also a long shore where you can do camping and star gazing at night.]]></item>
     </string-array>
 
     <string-array name="playa_laiya">
         <item>Playa Laiya</item>
-        <item>San Juan</item>
-        <item>Playa Laiya, San Juan, Luzon 4226, Philippines</item>
+        <item>Playa Laiya, San Juan</item>
         <item><![CDATA[An exclusive, members-only resort, Playa Laiya has a stunning and extensive beach front and pristine white sand. The resort also has several features and amenities including a clubhouse, a spacious pool deck, and the infinity pool that gives a great view of the sea.]]></item>
     </string-array>
 
     <string-array name="matabungkay_beach">
         <item>Matabungkay Beach</item>
-        <item>Batangas City</item>
-        <item>Matabungkay, Batangas City, Luzon, Philippines</item>
+        <item>Matabungkay, Batangas City</item>
         <item><![CDATA[. It is known for its white sand beach which is reasonably accessible from Manila (about 120 kilometres (75 mi)). It was originally 'discovered' to be a great weekend or daytrip destination in the early 1950s, allegedly by sun starved German residents of Manila. In fact the German Club had a cottage there then. It was soon a popular target for holiday lovers and permanent cottages (even deluxe beach houses) were built along the beach line (and some into the beach) in the early 1960s for rich Manila folk.]]></item>
     </string-array>
 
     <string-array name="burot_beach">
         <item>Burot Beach</item>
-        <item>Calatagan</item>
-        <item>Barangay Burot, Calatagan, Luzon, Philippines</item>
+        <item>Barangay Burot, Calatagan</item>
         <item><![CDATA[If you want to go to a remote place where you can relax and pitch a tent and on a low budget, this place is ideal. However, don't expect waves where you can surf or chase. There are lots of sea weeds and starfishes everywhere and also sea urchins so be careful, but if you enjoy the shallow water and view of sunset, then go try this place. ]]></item>
     </string-array>
 
     <string-array name="natipunan_beach">
         <item>Natipunan Beach</item>
-        <item>Nasugbo</item>
-        <item>Barangay Natipunan, Nasugbu, Luzon, Philippines</item>
+        <item>Barangay Natipunan, Nasugbu</item>
         <item><![CDATA[Entrance to this beach is free you only need to pay for the hut. Sand is gray and ordinary, but it is fine enough not to hurt your feet. Shower and toilets are also available for a fee. Sari-sari stores are accessible near the beach front where you can buy food. Bonfire to cook is also allowed in the beach area.]]></item>
     </string-array>
 
     <!--Church Entries-->
     <string-array name="caleruega_church">
         <item>Caleruega Church</item>
-        <item>Nasugbo</item>
-        <item>Brgy. Kaylaway, Nasugbu, Luzon, Philippines</item>
+        <item>Brgy. Kaylaway, Nasugbu</item>
         <item><![CDATA[Calaruega is not merely a solemn place of prayer but a destination to unwind. The other side of the fountain is a long stretch of road for the Station of the Cross. It is filled with blooming flowers and the picnic grounds is located downhill where people can rest. There are different sights to see. Families will find peace in the manmade falls, koi ponds, and hanging bridge.]]></item>
     </string-array>
 
     <string-array name="mt_carmel_church">
         <item>Our Lady of Mt Carmel Church</item>
-        <item>Lipa City</item>
-        <item>Barangay Carmel, Lipa City, Luzon, Philippines</item>
+        <item>Barangay Carmel, Lipa City</item>
         <item><![CDATA[Popular pilgrimage site in honor of The Blessed Virgin Mary, Mediatrix of All Grace. She was believed to have appeared here before a young postulant in the 1940s and rose petals fell from heaven during the apparitions. The tomb of the postulant Sister Teresita Castillo, is just outside the chapel of the Virgin Mary and may be seen by visitors.]]></item>
     </string-array>
 
     <string-array name="san_sebastian_cathedral">
         <item>San Sebastian Cathedral</item>
-        <item>Lipa City</item>
-        <item>P. Torres St, Lipa City, Luzon, Philippines</item>
+        <item>P. Torres St, Lipa City</item>
         <item><![CDATA[The cathedral is located in a very busy area. Roads are narrow so expect moderate flow of traffic. There is ample parking within the church premises. The church has undergone several restorations. However, upon entry, you will be impressed by the painted ceiling and dome. The dome is stunning. You will also see a grand baroque designed organ reportedly to be the only one in Batangas and one of the 59 units in the country.]]></item>
     </string-array>
 
     <string-array name="chapel_on_the_hill">
         <item>Chapel on the Hill</item>
-        <item>Batangas City</item>
-        <item>Don Bosco, Batangas City, Luzon 4120, Philippines</item>
+        <item>Don Bosco, Batangas City</item>
         <item><![CDATA[Ideal for a solemn and private, intimate wedding far from the madding crowd. It helps that the climate in Tagaytay is cool and being dressed in your best formal ensemble makes it very comfortable. It is ideal for a destination wedding.]]></item>
     </string-array>
 
     <string-array name="lady_of_casaysay">
         <item>Shrine of Our Lady Of Caysasay</item>
-        <item>Taal</item>
-        <item>Barangay Laba, Taal, Luzon, Philippines</item>
+        <item>Barangay Laba, Taal</item>
         <item><![CDATA[While this church is not the nicest in the Philippines, it is fascinating from the historical side. The image dates from 1603 and has been venerated there ever since. The candle vendors can be a little annoying, but you just have to keep politely refusing. The orphanage next door was well worth visiting also, if only to see the kids.]]></item>
     </string-array>
 
     <!--Farm Entries-->
     <string-array name="milea_bee_farm">
         <item>Milea Bee Farm</item>
-        <item>Nasugbo</item>
-        <item>Kurba Road, Lipa City, Luzon, Philippines</item>
+        <item>Kurba Road, Lipa City</item>
         <item><![CDATA[Milea Orchard and Bee Farm is a real working farm. It's the perfect place to visit for the authentic farm experience. Aside from different types of bees, you'll also see many types of butterflies, flowers, plants, fruits, and insects. It's a very interesting place, perfect for people who want to see what it's like on a farm.]]></item>
     </string-array>
 
     <string-array name="house_honey_bee_farm">
         <item>Honey House Honey Bee Farm</item>
-        <item>Lipa City</item>
-        <item>4 Leviste Hwy, Lipa City, Luzon, Philippines</item>
+        <item>4 Leviste Hwy, Lipa City</item>
         <item><![CDATA[The experience is full of information about bees particularly their purpose and their impact not only in the production of honey but their impact to the food sustainability to mankind. A good amount of high quality bee products are sold in this place.]]></item>
     </string-array>
 
     <string-array name="moca_family_farm">
         <item>MoCa Family Farm</item>
-        <item>Padre Garcia</item>
-        <item>108 Brgy. Castillo, Padre Garcia, Luzon 4224, Philippines</item>
+        <item>108 Brgy. Castillo, Padre Garcia</item>
         <item><![CDATA[MoCA Family farm is a small scale family farm located in Padre Garcia, Batangas. MoCa Farm started when sisters Gigi and Mimi, together with their husbands, Bob & Ferdie, made the decision to purchase a one hectare property in 2005 that used to be a mango orchard.  It started as weekend place for the Morris and Castor family;  that's why they originally refer to it as MoCa Farm.]]></item>
     </string-array>
 
@@ -148,13 +134,11 @@
     <string-array name="humba">
         <item>Humba</item>
         <item>Batangas City</item>
-        <item>Batangas City</item>
         <item><![CDATA[   ]]></item>
     </string-array>
 
     <string-array name="lomi">
         <item>Lomi</item>
-        <item>Batangas City</item>
         <item>Batangas City</item>
         <item><![CDATA[Why can’t I just drop the term Batangas and just call it lomi? Because lomi in this southern corner of Luzon is far different from what I have seen and tasted in other parts of the country. Our lomi is so thick, others are just completely weirded out by its gooey consistency. But we Batanguenos love our lomi sticky and served with a saucer of soy sauce, calamansi, and chili.]]></item>
     </string-array>
@@ -162,13 +146,11 @@
     <string-array name="bulalo">
         <item>Bulalo</item>
         <item>Sto. Tomas</item>
-        <item>Sto. Tomas</item>
         <item><![CDATA[Bulalo has been the signature dish of the province. Also known as bone marrow soup, it is a very simple dish when you break it down to its ingredients. Basically, it’s just beef shank boiled in water with onions, garlic, black pepper, and salt. At least, these are the most basic ingredients but other vegetables like cabbage, Chinese Cabbage, potatoes, and corn may be added according to their availability or the cook’s preference.]]></item>
     </string-array>
 
     <string-array name="sinaing_na_tulingan">
         <item>Sinaing na Tulingan</item>
-        <item>Balayan</item>
         <item>Balayan</item>
         <item><![CDATA[Another seafood dish that is easy to prepare is sinaing na tulingan, a small tuna that abounds in Balayan Bay. The fish are rubbed with salt, covered in dried kamias, and then placed in a clay pot. Through slow cooking, the flavor of the fish oozes out and mixes with the water, which we call 'patis' (fish sauce). It’s salty and very, well, fishy. It’s a favorite among Batanguenos for its long shelf life even without refrigeration.]]></item>
     </string-array>
@@ -176,13 +158,11 @@
     <string-array name="tinapa">
         <item>Tinapa</item>
         <item>Lemery</item>
-        <item>Lemery</item>
         <item><![CDATA[One of Lemery’s major products before and during the Spanish era was the tinapa (smoked fish). It can be any fish but what remains unchanged is the smoking. It’s a way of prolonging the “shelf life” of the fish. You can find tinapa in any market in Batangas. If you’re stopping by soon, don’t forget to buy a pack and take it home. Best served with vinegar.]]></item>
     </string-array>
 
     <string-array name="tapang_taal">
         <item>Tapang Taal</item>
-        <item>Taal</item>
         <item>Taal</item>
         <item><![CDATA[Batangas may be famous for beef, but its most famous tapa is actually pork. Tapang Taal is jerked pork and has a very garlicky and a bit sweeter taste than the ones in the capital. Best served with egg and rice.]]></item>
     </string-array>
@@ -190,168 +170,145 @@
     <!--History Entries-->
     <string-array name="museo_leon_at_apacible">
         <item>Museo nina Leon at Apacible</item>
-        <item>Taal</item>
-        <item>Calle Marcela Marino Agoncillo, Taal, Luzon, Philippines</item>
+        <item>Calle Marcela Marino Agoncillo, Taal</item>
         <item><![CDATA[Entrance to the museum is free, as it is now being run by the National Historical Commission of the Philippines. Upon entering, you will watch a video giving you the background of the brothers Leon and Galicano Apacible, and their participation in Philippine history, in particular the quest for independence against American colonialism. Leon was a lawyer, while Galicano was a doctor. Both were involved in the quest for Philippine independence.]]></item>
     </string-array>
 
     <string-array name="museo_marino_at_agoncillo">
         <item>Museo nina Marino at Agoncillo</item>
-        <item>Taal</item>
-        <item>#14 Calle Marcela Agoncillo, Taal, Luzon 4208, Philippines</item>
+        <item>#14 Calle Marcela Agoncillo, Taal</item>
         <item><![CDATA[ Not only would you learn about the Philippine Flag and that it was first sewn by Marcela Agoncillo, you would also learn about Philippine history, in particular the revolution against Spain, of which Marcela was a part. Equally interesting is the house itself, which dates back to the Spanish era in the Philippines. Touring the house would give you an idea of what life was like during those days.]]></item>
     </string-array>
 
     <string-array name="museo_malvar">
         <item>Museo ni Miguel Malvar</item>
-        <item>Sto. Tomas</item>
-        <item>Sto. Tomas, Batangas, Santo Tomas, Luzon 4234, Philippines</item>
+        <item>Sto. Tomas, Batangas, Santo Tomas</item>
         <item><![CDATA[Definitely, one of the must see places in Sto. Tomas. It consists of 2 galleries. One shouldn't miss Malvar's tomb or mausoleum when you drop by the museum. I]]></item>
     </string-array>
 
     <string-array name="ez_museum">
         <item>EZ Museum</item>
-        <item>Calatagan</item>
-        <item>Museo de Enrique Zobel, Calatagan, Luzon, Philippines</item>
+        <item>Museo de Enrique Zobel, Calatagan</item>
         <item><![CDATA[Museo de Enrique Zobel is the place to learn about the life and legacy of Don Enrique Zobel as well as the history of Calatagan.  The museum is open from Wednesday to Sunday. Entrance is free but donations are most welcome.]]></item>
     </string-array>
 
     <!--Island Entries-->
     <string-array name="fortune_island">
         <item>Fortune Island</item>
-        <item>Nasugbo</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Nasugbu, Luzon</item>
+        <item><![CDATA[If you want to experience clean water, picturesque and thrills near Manila, definitely this place is for you. From the Nasugbo town proper, have to take a boat ride going to the island. It takes about one and a half hour. Bring your own food and water since there are no stores on the island. You can go snorkling, so you can bring some gear.]]></item>
     </string-array>
 
     <string-array name="sombrero_island">
         <item>Sombrero Island</item>
-        <item>Anilao</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Anilao, Luzon</item>
+        <item><![CDATA[This hidden diving gem on the quiet side of Anilao has spectacular, unspoiled reefs with beautiful soft and hard corals. A great little dive site. Nothing too technical, just easy warm water with a lot of coral and fish to see.]]></item>
     </string-array>
 
     <string-array name="isla_verde">
         <item>Isla Verde</item>
-        <item>Batangas City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Isla Verde, Batangas City</item>
+        <item><![CDATA[The Verde Island Passage is famous for the diversity of its marine life and people come from around the world to our island to dive the surrounding reefs. Our Resort is right at the boundary of the Declared Marine Park, providing easy snorkelling access to the shallower corals and fish. ]]></item>
     </string-array>
 
     <string-array name="lunod_island">
         <item>Lunod Island</item>
-        <item>Mabini</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Mabini, Luzon</item>
+        <item><![CDATA[First things first. Lunod isn’t an island. It’s a beach lacing the western tip of Maricaban Island in Tingloy, Batangas. It’s the same island that harbors some of the municipality’s other fast-rising beaches like Oscar Island (which is not an island either) and Masasa Beach.]]></item>
     </string-array>
 
     <!--Light Entries-->
     <string-array name="malabrigo_lighthouse">
         <item>Malabrigo Lighthouse</item>
-        <item>Lobo</item>
-        <item></item>
+        <item>Lobo, Luzon</item>
+        <item><![CDATA[In the late 1800s, the Spanish chose this site as one among several that will form part of their grand plan to light up the maritime coastline of the Philippine Archipelago. Inspired by Victorian architecture, this lighthouse is in good state and very much in active use. The tower rises 56 feet above the ground and is equipped with a halogen-powered lamp that flashes 3 white lights every 15 seconds. It was built to guide ships traversing Tayabas Bay.]]></item>
     </string-array>
 
     <string-array name="cape_santiago_lighthouse">
         <item>Cape Santiago Lighthouse</item>
-        <item>Calatagan</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Calatagan, Luzon</item>
+        <item><![CDATA[The lighthouse was built in the 1890s during the Spanish period. Upon approaching, you will be taken back in time. Be warned though that you cannot simply walk in as the place is surrounded by a steel bar fence and the gate is locked. The good news is that there is a resident caretaker who is very friendly and lets in tourists for free. ]]></item>
     </string-array>
 
     <!--Mountain Entries-->
     <string-array name="mt_batulao">
         <item>Mt. Batulao</item>
-        <item>Nasugbo</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>National Highway, Nasugbu</item>
+        <item><![CDATA[Mt. Batulao, with an elevation gain of 2000+ft is a fun workout and quite a funky ridge of several peaks with nifty views and rock scrambling sections with optional ropes. It is not completely remote and it is surrounded by local farmland and homesteads, but will give you a taste of tropical provincial living. ]]></item>
     </string-array>
 
     <string-array name="mt_maculot">
         <item>Mt. Maculot</item>
-        <item>Cuenca</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Barangay Pinagkaisahan, Cuenca</item>
+        <item><![CDATA[The view from the Rockies was absolutely breathtaking. Overlooking Taal Lake, Taal Volcano and its crater. Water appears to be a sheet of smooth glass from the top and the lush greenery and dense forests seemed surreal.]]></item>
     </string-array>
 
     <string-array name="mt_salvacion">
-        <item>Mt. Salvacion</item>
-        <item>Batangas City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Mountain of Salvacion</item>
+        <item>Calaca, Batangas City</item>
+        <item><![CDATA[The Mountain of Salvation is where the newest apparitions of the Mother of Love, Peace and Joy have been recorded which started in December 8, 2004. From then on, the followers of Emma de Guzman and her religious flock of La Pieta have consistently observed the mass at 1:00 p.m. every 8th of every month.]]></item>
     </string-array>
 
     <string-array name="manabu_peak">
         <item>Manabu Peak</item>
-        <item>Sto. Tomas</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Sto. Tomas, Luzon</item>
+        <item><![CDATA[The trail, which is known for its Stations of the Cross was a mere hike. The route is shaped like a rosary to be undertaken counter clockwise. At its peak is a cross to mark the summit. Aside from a popular destination for Holy Week, it is also known for the civet coffee being brewed amidst its forests. Civets apparently live within the mountain.]]></item>
     </string-array>
 
     <string-array name="mt_talamitam">
         <item>Mt. Talamitam</item>
-        <item>Nasugbo</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Nasugbu, Luzon</item>
+        <item><![CDATA[Mt. Talamitam is not as popular as other Batangas mountains but it deserves to be a must-hike destination. The trails are surprisingly well-kept.]]></item>
     </string-array>
 
     <!--Restaurant Entries-->
     <string-array name="little_white_cottage">
         <item>Little White Cottage</item>
-        <item>San Juan</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>39d, San Juan</item>
+        <item><![CDATA[The inside of the restaurant is cozy and bright making it welcome for the guests. Each food item has it's name written in chalk so customers easily know what it is. The food is laid out and so you just point or tell them what you want.]]></item>
     </string-array>
 
     <string-array name="butch_seafood_grill">
         <item>Butch Seafood \u0022 Grill Restaurant</item>
-        <item>Batangas City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Alangilan, Batangas City</item>
+        <item><![CDATA[Authentic Filipino favorites are in their menu. The family's favorite is Pinaputok na Tilapia and Brownie ala Mode. Both are definitely a must try. Plus factors for the nice interior, spacious parking and clean comfort room.]]></item>
     </string-array>
 
     <string-array name="rose_grace_restaurant">
         <item>Rose \u0022 Grace Restaurant</item>
-        <item>Sto. Tomas</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Batangas, Santo Tomas</item>
+        <item><![CDATA[Rose & Grace is always a place to dine when travelling in or to Batangas. While resto can be warm, noisy and crowded for a meal, it remains popular and a default place to dine for lunch, dinner or even a merienda/snack. Bulalo is always a must to order but there are lots of choices from the counter. While it may not have the same "home cooking" feel, the offerings are safe and above average.]]></item>
     </string-array>
 
     <string-array name="chez_deo_ristorante_italiano">
         <item>Chez Deo Ristorante Italiano</item>
-        <item>Balayan</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Brgy. 12, Balayan</item>
+        <item><![CDATA[It comes as no surprise to see ancestral homes and similar structures in this quiet little town, but it’s amazing to see contemporary establishments like Chez Deo, which is situated in a renovated house and is probably the most “upscale” restaurant in the area. Chez Deo’s menu doesn’t go as far as perfecting any one of Italy’s regional cuisines but it does its job well in offering recognizable Italian dishes.]]></item>
     </string-array>
 
     <string-array name="liam_lomi_house">
         <item>Liam's Lomi House</item>
-        <item>Lipa City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Gen. Luna St, Lipa City</item>
+        <item><![CDATA[Liam’s is a success story known by a lot of Lipeños. What started off as a small kubo is now one of the best lomi houses in Lipa City. Ask Lipeños for the best lomi and a lot of them will tell you that it’s the lomi of Liam’s Lomi House.]]></item>
     </string-array>
-
 
     <!--Specialty Entries-->
     <string-array name="apolinario_mabini_shrine">
         <item>Apolinario Mabini Shrine</item>
-        <item>Tanauan City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Barangay Talaga, Tanauan City</item>
+        <item><![CDATA[Apolinario Mabini is not as well known as the other national heroes like that of Jose Rizal, but being the Brains of Katipunan he should also be given proper recognition. This shrine pave way for that as it gives a glimpse of the life by Mabini. The shrine offers a short documentary of his life, with two options a short version in cartoon and a longer version, depends on which you prefer, since we have small kids during our visit, we prefer the shorter version. His remains also lie here including the small coffin where his bone are place during the transfer from Manila.]]></item>
     </string-array>
 
     <string-array name="casa_de_segunda">
         <item>Casa de Segunda</item>
-        <item>Lipa City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>198 Rizal Street, Lipa City</item>
+        <item><![CDATA[Casa de Segunda is an old heritage house in the poblacion of the City of Lipa. Named after Segunda Katigbak, a beautifull lass who was the first love by no less than our national hero Dr. Jose Rizal, the heritage house is one of the few century old houses in this city preserved by the families with its historical relevance. It is one culture and tourist destination that the present generations must see for themselves and be poud of.]]></item>
     </string-array>
 
     <string-array name="museo_ng_katipunan">
         <item>Museo ng Katipunan</item>
-        <item>Lipa City</item>
-        <item></item>
-        <item><![CDATA[   ]]></item>
+        <item>Barangay Bulaklakan, Lipa City</item>
+        <item><![CDATA[Lined with innovative and conventional exhibits, the Museo ng Katipunan tells the story of the clandestine organization of the Filipino revolutionaries. Archival documents, amulets, cryptic messages, and bladed weapons used by Katipuneros are seen throughout the Museum. Various artworks—busts, monochrome pastel portraits, and oil paintings depicting scenes from the revolution—created by renowned Filipino artists are also displayed. ]]></item>
     </string-array>
 
 </resources>

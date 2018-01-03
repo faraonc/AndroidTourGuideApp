@@ -9,42 +9,37 @@ import java.io.Serializable;
 //TODO Replace with Parceable
 class TourItem implements Serializable {
 
+    private final static int NAME = 0;
+    private final static int LOCATION = 1;
+    private final static int DESCRIPTION = 2;
+
     private String entryName;
     private String entryLocation;
+    private String entryDescription;
     private int entryImageId;
 
-    TourItem(String entryName, String entryLocation, int entryImageId ){
-        this.entryName = entryName;
-        this.entryLocation = entryLocation;
+
+    TourItem(String stringResourceIds[], int entryImageId) {
+        this.entryName = stringResourceIds[NAME];
+        this.entryLocation = stringResourceIds[LOCATION];
+        this.entryDescription = stringResourceIds[DESCRIPTION];
         this.entryImageId = entryImageId;
     }
 
-    String getEntryName(){
+    String getEntryName() {
         return this.entryName;
     }
 
-    String getEntryLocation(){
+    String getEntryLocation() {
         return this.entryLocation;
     }
 
-    int getEntryImageId(){
+    String getEntryDescription() {
+        return this.entryDescription;
+    }
+
+    int getEntryImageId() {
         return this.entryImageId;
     }
 
-    void setEntryName(String entryName){
-        this.entryName = entryName;
-    }
-
-    void setEntryLocation(String entryLocation){
-        this.entryLocation = this.entryLocation;
-    }
-
-    void setEntryImageId(int entryImageId){
-        this.entryImageId = entryImageId;
-    }
-
-    @Override
-    public String toString(){
-        return this.entryName + " -> " + this.entryLocation + ": " + this.entryImageId;
-    }
 }

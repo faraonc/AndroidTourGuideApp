@@ -22,10 +22,10 @@ public class HistoryFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem("Museo nina Leon at Apacible ", "Taal", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("Museo nina Marino at Agoncillo", "Taal", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("Museo ni Miguel Malvar ", "Sto. Tomas", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("EZ Museum ", "Calatagan", R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.museo_leon_at_apacible), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.museo_marino_at_agoncillo), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.museo_malvar), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.ez_museum), R.drawable.ic_beach_black_48dp));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

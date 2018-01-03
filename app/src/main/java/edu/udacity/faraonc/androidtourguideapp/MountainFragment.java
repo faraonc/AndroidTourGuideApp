@@ -18,11 +18,11 @@ public class MountainFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem("Mt. Batulao", "Nasugbo", R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem("Mt. Maculot", "Cuenca", R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem("Mt. Salvacion", "Batangas City", R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem("Manabu Peak", "Sto. Tomas", R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem("Mt. Talamitam", "Nasugbo", R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.mt_batulao), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.mt_maculot), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.mt_salvacion), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.manabu_peak), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.mt_talamitam), R.drawable.ic_history_black_48dp));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

@@ -21,9 +21,9 @@ public class FarmFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem("Milea Bee Farm", "Lipa City", R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem("Honey House Honey Bee Farm", "Lipa City", R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem("MoCa Family Farm", "Padre Garcia", R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.milea_bee_farm), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.house_honey_bee_farm), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.moca_family_farm), R.drawable.ic_history_black_48dp));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

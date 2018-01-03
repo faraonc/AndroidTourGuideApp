@@ -19,11 +19,11 @@ public class BeachFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem("Masasa Beach", "Batangas City", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("Playa Laiya", "San Juan", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("Matabungkay Beach", "Batangas City", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("Burot Beach", "Calatagan", R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem("Natipunan Beach", "Nasugbo", R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.masasa_beach), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.playa_laiya), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.matabungkay_beach), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.burot_beach), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.natipunan_beach), R.drawable.ic_beach_black_48dp));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
