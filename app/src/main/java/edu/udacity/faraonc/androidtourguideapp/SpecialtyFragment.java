@@ -22,9 +22,9 @@ public class SpecialtyFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.apolinario_mabini_shrine), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.casa_de_segunda), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.museo_ng_katipunan), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.apolinario_mabini_shrine), R.drawable.apolinario_mabini_shrine_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.casa_de_segunda), R.drawable.casa_de_segunda_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.museo_ng_katipunan), R.drawable.museo_katipunan_img  ));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

@@ -21,8 +21,8 @@ public class LighthouseFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.malabrigo_lighthouse), R.drawable.ic_history_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.cape_santiago_lighthouse), R.drawable.ic_history_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.malabrigo_lighthouse), R.drawable.malabrigo_lighthouse_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.cape_santiago_lighthouse), R.drawable.cape_santiago_lighthouse_img));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

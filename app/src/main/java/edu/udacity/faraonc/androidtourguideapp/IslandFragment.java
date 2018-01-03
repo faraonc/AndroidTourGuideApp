@@ -19,10 +19,10 @@ public class IslandFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.fortune_island), R.drawable.ic_beach_grey600_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.sombrero_island), R.drawable.ic_beach_grey600_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.isla_verde), R.drawable.ic_beach_grey600_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.lunod_island), R.drawable.ic_beach_grey600_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.fortune_island), R.drawable.fortune_island_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.sombrero_island), R.drawable.sombrero_island_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.isla_verde), R.drawable.isla_verde_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.lunod_island), R.drawable.lunod_island_img));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

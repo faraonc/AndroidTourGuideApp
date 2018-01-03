@@ -21,12 +21,12 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.humba), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.lomi), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.bulalo), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.sinaing_na_tulingan), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.tinapa), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.tapang_taal), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.humba), R.drawable.humba_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.lomi), R.drawable.lomi_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.bulalo), R.drawable.bulalo_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.sinaing_na_tulingan), R.drawable.sinaing_na_tulingan_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.tinapa), R.drawable.tinapa_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.tapang_taal), R.drawable.tapang_taal_img));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

@@ -21,11 +21,11 @@ public class RestaurantFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_list, container, false);
 
         ArrayList<TourItem> tourItems = new ArrayList<>();
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.little_white_cottage), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.butch_seafood_grill), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.rose_grace_restaurant), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.chez_deo_ristorante_italiano), R.drawable.ic_beach_black_48dp));
-        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.liam_lomi_house), R.drawable.ic_beach_black_48dp));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.little_white_cottage), R.drawable.little_white_cottage_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.butch_seafood_grill), R.drawable.butch_seafood_grill_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.rose_grace_restaurant), R.drawable.rose_and_grace_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.chez_deo_ristorante_italiano), R.drawable.chez_deo_ristorante_img));
+        tourItems.add(new TourItem(getActivity().getResources().getStringArray(R.array.liam_lomi_house), R.drawable.liam_lomi_house_img));
 
         TourItemAdapter itemsAdapter = new TourItemAdapter(getActivity(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
