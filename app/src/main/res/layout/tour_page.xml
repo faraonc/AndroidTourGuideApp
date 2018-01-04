@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/tour_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/masasa_beach_img" />
+
+        <TextView
+            android:id="@+id/tour_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:lineSpacingExtra="3dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Masasa Beach" />
+
+        <TextView
+            android:id="@+id/tour_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:lineSpacingExtra="3dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="Masasa Beach, Lipa City" />
+
+
+        <View style="@style/LineBreakStyle" />
+
+        <TextView
+            android:id="@+id/tour_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:lineSpacingExtra="2.5dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="@string/test_paragraph" />
+
+
+    </LinearLayout>
+
+</ScrollView>

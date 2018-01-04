@@ -1,11 +1,23 @@
 <resources>
     <string name="app_name">Ala Eh Batangas</string>
 
+    <string name="drawer_state_key">drawerState</string>
+    <string name="fragment_state_key">fragmentState</string>
+
+    <string name="home_tag">HOME_TAG</string>
+    <string name="nature_tag">NATURE_TAG</string>
+    <string name="landmark_tag">LANDMARK_TAG</string>
+    <string name="museum_tag">MUSEUM_TAG</string>
+    <string name="cuisine_tag">CUISINE_TAG</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
 
     <string name="placeholder">PLACEHOLDER</string>
+
+    <string name="test_paragraph"><![CDATA[A beach with crystal clear water, white sand and beautiful corals. Masasa beach offers affordable accommodations, and lots of activities you can enjoy like swimming and snorkeling. They offer use of vest and goggles for those who want to see the beauty under the sea. You can also hike to Mag-asawang Bato if you want to see the whole shore of the beach. In addition to that, they have also a long shore where you can do camping and star gazing at night.]]></string>
+
 
     <!--Drawer Header-->
     <string name="batangas">Batangas</string>
@@ -42,11 +54,19 @@
         <![CDATA[Batangas, officially known as the Province of Batangas (Filipino: Lalawigan ng Batangas) is a province in the Philippines located in the Calabarzon region in Luzon. Its capital is the city of Batangas and is bordered by the provinces of Cavite and Laguna to the north and Quezon to the east. Across the Verde Island Passages to the south is the island of Mindoro and to the west lies the South China Sea. Poetically, Batangas is often referred to by its ancient name Kumintáng.]]>
     </string>
 
+    <string name="paragraph_02">
+        <![CDATA[Batangas is one of the most popular tourist destinations near Metro Manila. It is home to the well-known Taal Volcano, one of the Decade Volcanoes, and Taal Heritage town, a small town that has ancestral houses and structures dating back to the 19th century. The province also has numerous beaches and diving spots including Anilao in Mabini, Sombrero Island in Tingloy, Ligpo Island and Sampaguita Beach in Bauan, Matabungkay in Lian, Punta Fuego in Nasugbu, Calatagan and Laiya in San Juan.]]>
+    </string>
+
+    <string name="paragraph_03">
+        <![CDATA[Batangas City has the second largest international seaport in the Philippines after Metro Manila. The identification of the city as an industrial growth center in the region and being the focal point of the Calabarzon program is seen in the increasing number of business establishments in the city\\'s Central Business District (CBD) as well as numerous industries operating in the province\\'s industrial parks.]]>
+    </string>
+
     <!--Art Entries-->
     <string-array name="galleria_taal">
         <item>Galleria Taal</item>
         <item>60 Calle M.Agoncillo, Taal</item>
-        <item><![CDATA[Photographer's heaven. Filipino culture lover's stop. Galleria Taal is a humble museum of Taal, Batangas that will offer you the Tagalog's classic lifestyle house during the Spanish era and now houses to a lot of photographs/camera that shaped our culture today. Come and see this classic house with full of cultural treasures that helped to shape our culture today!]]></item>
+        <item><![CDATA[Photographer\'s heaven. Filipino culture lover\'s stop. Galleria Taal is a humble museum of Taal, Batangas that will offer you the Tagalog\'s classic lifestyle house during the Spanish era and now houses to a lot of photographs/camera that shaped our culture today. Come and see this classic house with full of cultural treasures that helped to shape our culture today!]]></item>
     </string-array>
 
     <!--Beach Entries-->
@@ -65,13 +85,13 @@
     <string-array name="matabungkay_beach">
         <item>Matabungkay Beach</item>
         <item>Matabungkay, Batangas City</item>
-        <item><![CDATA[. It is known for its white sand beach which is reasonably accessible from Manila (about 120 kilometres (75 mi)). It was originally 'discovered' to be a great weekend or daytrip destination in the early 1950s, allegedly by sun starved German residents of Manila. In fact the German Club had a cottage there then. It was soon a popular target for holiday lovers and permanent cottages (even deluxe beach houses) were built along the beach line (and some into the beach) in the early 1960s for rich Manila folk.]]></item>
+        <item><![CDATA[. It is known for its white sand beach which is reasonably accessible from Manila (about 120 kilometres (75 mi)). It was originally \'discovered\' to be a great weekend or daytrip destination in the early 1950s, allegedly by sun starved German residents of Manila. In fact the German Club had a cottage there then. It was soon a popular target for holiday lovers and permanent cottages (even deluxe beach houses) were built along the beach line (and some into the beach) in the early 1960s for rich Manila folk.]]></item>
     </string-array>
 
     <string-array name="burot_beach">
         <item>Burot Beach</item>
         <item>Barangay Burot, Calatagan</item>
-        <item><![CDATA[If you want to go to a remote place where you can relax and pitch a tent and on a low budget, this place is ideal. However, don't expect waves where you can surf or chase. There are lots of sea weeds and starfishes everywhere and also sea urchins so be careful, but if you enjoy the shallow water and view of sunset, then go try this place. ]]></item>
+        <item><![CDATA[If you want to go to a remote place where you can relax and pitch a tent and on a low budget, this place is ideal. However, don\'t expect waves where you can surf or chase. There are lots of sea weeds and starfishes everywhere and also sea urchins so be careful, but if you enjoy the shallow water and view of sunset, then go try this place. ]]></item>
     </string-array>
 
     <string-array name="natipunan_beach">
@@ -115,7 +135,7 @@
     <string-array name="milea_bee_farm">
         <item>Milea Bee Farm</item>
         <item>Kurba Road, Lipa City</item>
-        <item><![CDATA[Milea Orchard and Bee Farm is a real working farm. It's the perfect place to visit for the authentic farm experience. Aside from different types of bees, you'll also see many types of butterflies, flowers, plants, fruits, and insects. It's a very interesting place, perfect for people who want to see what it's like on a farm.]]></item>
+        <item><![CDATA[Milea Orchard and Bee Farm is a real working farm. It\'s the perfect place to visit for the authentic farm experience. Aside from different types of bees, you\'ll also see many types of butterflies, flowers, plants, fruits, and insects. It\'s a very interesting place, perfect for people who want to see what it\'s like on a farm.]]></item>
     </string-array>
 
     <string-array name="house_honey_bee_farm">
@@ -127,7 +147,7 @@
     <string-array name="moca_family_farm">
         <item>MoCa Family Farm</item>
         <item>108 Brgy. Castillo, Padre Garcia</item>
-        <item><![CDATA[MoCA Family farm is a small scale family farm located in Padre Garcia, Batangas. MoCa Farm started when sisters Gigi and Mimi, together with their husbands, Bob & Ferdie, made the decision to purchase a one hectare property in 2005 that used to be a mango orchard.  It started as weekend place for the Morris and Castor family;  that's why they originally refer to it as MoCa Farm.]]></item>
+        <item><![CDATA[MoCA Family farm is a small scale family farm located in Padre Garcia, Batangas. MoCa Farm started when sisters Gigi and Mimi, together with their husbands, Bob & Ferdie, made the decision to purchase a one hectare property in 2005 that used to be a mango orchard.  It started as weekend place for the Morris and Castor family;  that\'s why they originally refer to it as MoCa Farm.]]></item>
     </string-array>
 
     <!--Food Entries-->
@@ -152,7 +172,7 @@
     <string-array name="sinaing_na_tulingan">
         <item>Sinaing na Tulingan</item>
         <item>Balayan</item>
-        <item><![CDATA[Another seafood dish that is easy to prepare is sinaing na tulingan, a small tuna that abounds in Balayan Bay. The fish are rubbed with salt, covered in dried kamias, and then placed in a clay pot. Through slow cooking, the flavor of the fish oozes out and mixes with the water, which we call 'patis' (fish sauce). It’s salty and very, well, fishy. It’s a favorite among Batanguenos for its long shelf life even without refrigeration.]]></item>
+        <item><![CDATA[Another seafood dish that is easy to prepare is sinaing na tulingan, a small tuna that abounds in Balayan Bay. The fish are rubbed with salt, covered in dried kamias, and then placed in a clay pot. Through slow cooking, the flavor of the fish oozes out and mixes with the water, which we call \'patis\' (fish sauce). It’s salty and very, well, fishy. It’s a favorite among Batanguenos for its long shelf life even without refrigeration.]]></item>
     </string-array>
 
     <string-array name="tinapa">
@@ -183,7 +203,7 @@
     <string-array name="museo_malvar">
         <item>Museo ni Miguel Malvar</item>
         <item>Sto. Tomas, Batangas, Santo Tomas</item>
-        <item><![CDATA[Definitely, one of the must see places in Sto. Tomas. It consists of 2 galleries. One shouldn't miss Malvar's tomb or mausoleum when you drop by the museum. I]]></item>
+        <item><![CDATA[Definitely, one of the must see places in Sto. Tomas. It consists of 2 galleries. One shouldn\'t miss Malvar\'s tomb or mausoleum when you drop by the museum. I]]></item>
     </string-array>
 
     <string-array name="ez_museum">
@@ -265,17 +285,17 @@
     <string-array name="little_white_cottage">
         <item>Little White Cottage</item>
         <item>39d, San Juan</item>
-        <item><![CDATA[The inside of the restaurant is cozy and bright making it welcome for the guests. Each food item has it's name written in chalk so customers easily know what it is. The food is laid out and so you just point or tell them what you want.]]></item>
+        <item><![CDATA[The inside of the restaurant is cozy and bright making it welcome for the guests. Each food item has it\'s name written in chalk so customers easily know what it is. The food is laid out and so you just point or tell them what you want.]]></item>
     </string-array>
 
     <string-array name="butch_seafood_grill">
-        <item>Butch Seafood and Grill Restaurant</item>
+        <item>Butch Seafood &amp; Grill Restaurant</item>
         <item>Alangilan, Batangas City</item>
-        <item><![CDATA[Authentic Filipino favorites are in their menu. The family's favorite is Pinaputok na Tilapia and Brownie ala Mode. Both are definitely a must try. Plus factors for the nice interior, spacious parking and clean comfort room.]]></item>
+        <item><![CDATA[Authentic Filipino favorites are in their menu. The family\'s favorite is Pinaputok na Tilapia and Brownie ala Mode. Both are definitely a must try. Plus factors for the nice interior, spacious parking and clean comfort room.]]></item>
     </string-array>
 
     <string-array name="rose_grace_restaurant">
-        <item>Rose and Grace Restaurant</item>
+        <item>Rose &amp; Grace Restaurant</item>
         <item>Batangas, Santo Tomas</item>
         <item><![CDATA[Rose & Grace is always a place to dine when travelling in or to Batangas. While resto can be warm, noisy and crowded for a meal, it remains popular and a default place to dine for lunch, dinner or even a merienda/snack. Bulalo is always a must to order but there are lots of choices from the counter. While it may not have the same "home cooking" feel, the offerings are safe and above average.]]></item>
     </string-array>
@@ -287,7 +307,7 @@
     </string-array>
 
     <string-array name="liam_lomi_house">
-        <item>Liam's Lomi House</item>
+        <item>Liam\'s Lomi House</item>
         <item>Gen. Luna St, Lipa City</item>
         <item><![CDATA[Liam’s is a success story known by a lot of Lipeños. What started off as a small kubo is now one of the best lomi houses in Lipa City. Ask Lipeños for the best lomi and a lot of them will tell you that it’s the lomi of Liam’s Lomi House.]]></item>
     </string-array>

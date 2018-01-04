@@ -1,5 +1,8 @@
 package edu.udacity.faraonc.androidtourguideapp;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.io.Serializable;
 
 /**
@@ -7,7 +10,7 @@ import java.io.Serializable;
  */
 
 //TODO Replace with Parceable
-class TourItem implements Serializable {
+class TourItem implements Parcelable {
 
     private final static int NAME = 0;
     private final static int LOCATION = 1;
@@ -26,6 +29,13 @@ class TourItem implements Serializable {
         this.entryImageId = entryImageId;
     }
 
+    public TourItem(Parcel in){
+        this.entryName = in.readString();
+        this.entryLocation = in.readString();
+        this.entryDescription = in.readString();
+        this.entryImageId = in.readInt();
+    }
+
     String getEntryName() {
         return this.entryName;
     }
@@ -42,4 +52,26 @@ class TourItem implements Serializable {
         return this.entryImageId;
     }
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(this.entryName);
+        parcel.writeString(this.entryLocation);
+        parcel.writeString(this.entryDescription);
+        parcel.writeInt(this.entryImageId);
+    }
+
+    public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
+        public TourItem createFromParcel(Parcel in) {
+            return new TourItem(in);
+        }
+
+        public TourItem[] newArray(int size) {
+            return new TourItem[size];
+        }
+    };
 }
