@@ -1,21 +1,27 @@
 package edu.udacity.faraonc.androidtourguideapp;
 
+
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
- * Created by faraonc on 12/31/17.
+ * The adapter for displaying various sub-categories.
+ *
+ * @author ConardJames
+ * @version 010418-01
  */
-
 class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context context;
     private int numberCategories;
     private CategoryTypeEnum type;
 
-    enum CategoryTypeEnum{
+    /*
+    Used for identifying the category type.
+     */
+    enum CategoryTypeEnum {
         NATURES,
         LANDMARKS,
         MUSEUMS,
@@ -25,15 +31,16 @@ class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Create a new {@link CategoryAdapter} object.
      *
-     * @param fm is the fragment manager that will keep each fragment's state in the adapter
-     *           across swipes.
+     * @param context for resource access.
+     * @param fm      is the fragment manager that will keep each fragment's state in the adapter across swipes.
+     * @param type    the category type.
      */
     public CategoryAdapter(Context context, FragmentManager fm, CategoryTypeEnum type) {
         super(fm);
         this.context = context;
         this.type = type;
 
-        switch(this.type){
+        switch (this.type) {
             case NATURES:
                 this.numberCategories = 3;
                 break;
@@ -51,10 +58,15 @@ class CategoryAdapter extends FragmentPagerAdapter {
         }
     }
 
-
     @Override
+    /**
+     * Get the fragment.
+     *
+     * @param   position index in the adapter.
+     * @return the Fragment.
+     */
     public Fragment getItem(int position) {
-        switch(this.type){
+        switch (this.type) {
             case NATURES:
                 return getNatureItem(position);
 
@@ -70,8 +82,14 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private Fragment getNatureItem(int position){
-        switch(position){
+    /**
+     * Get the sub-category fragment of nature.
+     *
+     * @param position index in the adapter.
+     * @return the Fragment.
+     */
+    private Fragment getNatureItem(int position) {
+        switch (position) {
             case 0:
                 return new BeachFragment();
             case 1:
@@ -82,8 +100,14 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private Fragment getLandmarkItem(int position){
-        switch(position){
+    /**
+     * Get the sub-category fragment of landmark.
+     *
+     * @param position index in the adapter.
+     * @return the Fragment.
+     */
+    private Fragment getLandmarkItem(int position) {
+        switch (position) {
             case 0:
                 return new ChurchFragment();
             case 1:
@@ -94,8 +118,14 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private Fragment getMuseumItem(int position){
-        switch(position){
+    /**
+     * Get the sub-category fragment of museum.
+     *
+     * @param position index in the adapter.
+     * @return the Fragment.
+     */
+    private Fragment getMuseumItem(int position) {
+        switch (position) {
             case 0:
                 return new HistoryFragment();
             case 1:
@@ -106,8 +136,14 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private Fragment getCuisineItem(int position){
-        switch(position){
+    /**
+     * Get the sub-category fragment of cuisine.
+     *
+     * @param position index in the adapter.
+     * @return the Fragment.
+     */
+    private Fragment getCuisineItem(int position) {
+        switch (position) {
             case 0:
                 return new RestaurantFragment();
             case 1:
@@ -116,18 +152,26 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
+    @Override
     /**
      * Return the total number of pages.
+     *
+     * @return the total number of categories.
      */
-    @Override
     public int getCount() {
         return this.numberCategories;
     }
 
-    // This determines the title for each tab
+
     @Override
+    /**
+     * Determines the title for each tab.
+     *
+     * @param   position index in the adapter.
+     * @return the title as CharSequence.
+     */
     public CharSequence getPageTitle(int position) {
-        switch(this.type){
+        switch (this.type) {
             case NATURES:
                 return getNaturePageTitle(position);
 
@@ -143,7 +187,13 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private CharSequence getNaturePageTitle(int position){
+    /**
+     * Determines the title for each tab under nature.
+     *
+     * @param position index in the adapter.
+     * @return the title as CharSequence.
+     */
+    private CharSequence getNaturePageTitle(int position) {
         // Generate title based on item position
         switch (position) {
             case 0:
@@ -158,7 +208,13 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private CharSequence getLandmarkPageTitle(int position){
+    /**
+     * Determines the title for each tab under landmark.
+     *
+     * @param position index in the adapter.
+     * @return the title as CharSequence.
+     */
+    private CharSequence getLandmarkPageTitle(int position) {
         // Generate title based on item position
         switch (position) {
             case 0:
@@ -173,7 +229,13 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private CharSequence getMuseumPageTitle(int position){
+    /**
+     * Determines the title for each tab under museum.
+     *
+     * @param position index in the adapter.
+     * @return the title as CharSequence.
+     */
+    private CharSequence getMuseumPageTitle(int position) {
         // Generate title based on item position
         switch (position) {
             case 0:
@@ -188,7 +250,13 @@ class CategoryAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    private CharSequence getCuisinePageTitle(int position){
+    /**
+     * Determines the title for each tab under cuisine.
+     *
+     * @param position index in the adapter.
+     * @return the title as CharSequence.
+     */
+    private CharSequence getCuisinePageTitle(int position) {
         // Generate title based on item position
         switch (position) {
             case 0:

@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Ala Eh Batangas</string>
 
     <string name="drawer_state_key">drawerState</string>
@@ -17,7 +18,6 @@
     <string name="placeholder">PLACEHOLDER</string>
 
     <string name="test_paragraph"><![CDATA[A beach with crystal clear water, white sand and beautiful corals. Masasa beach offers affordable accommodations, and lots of activities you can enjoy like swimming and snorkeling. They offer use of vest and goggles for those who want to see the beauty under the sea. You can also hike to Mag-asawang Bato if you want to see the whole shore of the beach. In addition to that, they have also a long shore where you can do camping and star gazing at night.]]></string>
-
 
     <!--Drawer Header-->
     <string name="batangas">Batangas</string>
@@ -85,7 +85,7 @@
     <string-array name="matabungkay_beach">
         <item>Matabungkay Beach</item>
         <item>Matabungkay, Batangas City</item>
-        <item><![CDATA[. It is known for its white sand beach which is reasonably accessible from Manila (about 120 kilometres (75 mi)). It was originally \'discovered\' to be a great weekend or daytrip destination in the early 1950s, allegedly by sun starved German residents of Manila. In fact the German Club had a cottage there then. It was soon a popular target for holiday lovers and permanent cottages (even deluxe beach houses) were built along the beach line (and some into the beach) in the early 1960s for rich Manila folk.]]></item>
+        <item><![CDATA[It is known for its white sand beach which is reasonably accessible from Manila (about 120 kilometres (75 mi)). It was originally \'discovered\' to be a great weekend or daytrip destination in the early 1950s, allegedly by sun starved German residents of Manila. In fact the German Club had a cottage there then. It was soon a popular target for holiday lovers and permanent cottages (even deluxe beach houses) were built along the beach line (and some into the beach) in the early 1960s for rich Manila folk.]]></item>
     </string-array>
 
     <string-array name="burot_beach">
@@ -104,7 +104,7 @@
     <string-array name="caleruega_church">
         <item>Caleruega Church</item>
         <item>Brgy. Kaylaway, Nasugbu</item>
-        <item><![CDATA[Calaruega is not merely a solemn place of prayer but a destination to unwind. The other side of the fountain is a long stretch of road for the Station of the Cross. It is filled with blooming flowers and the picnic grounds is located downhill where people can rest. There are different sights to see. Families will find peace in the manmade falls, koi ponds, and hanging bridge.]]></item>
+        <item><![CDATA[Calaruega is not merely a solemn place of prayer but a destination to unwind. The other side of the fountain is a long stretch of road for the Station of the Cross. It is filled with blooming flowers and the picnic grounds is located downhill where people can rest. There are different sights to see. Families will find peace in the man-made falls, koi ponds, and hanging bridge.]]></item>
     </string-array>
 
     <string-array name="mt_carmel_church">
@@ -160,7 +160,7 @@
     <string-array name="lomi">
         <item>Lomi</item>
         <item>Batangas City</item>
-        <item><![CDATA[Why can’t I just drop the term Batangas and just call it lomi? Because lomi in this southern corner of Luzon is far different from what I have seen and tasted in other parts of the country. Our lomi is so thick, others are just completely weirded out by its gooey consistency. But we Batanguenos love our lomi sticky and served with a saucer of soy sauce, calamansi, and chili.]]></item>
+        <item><![CDATA[Why can’t we just drop the term Batangas and just call it lomi? Because lomi in this southern corner of Luzon is far different from what people have seen and tasted in other parts of the country. Batangas lomi is so thick, others are just completely weirded out by its gooey consistency. But Batanguenos love their own lomi sticky and served with a saucer of soy sauce, calamansi, and chili.]]></item>
     </string-array>
 
     <string-array name="bulalo">
@@ -191,19 +191,19 @@
     <string-array name="museo_leon_at_apacible">
         <item>Museo nina Leon at Apacible</item>
         <item>Calle Marcela Marino Agoncillo, Taal</item>
-        <item><![CDATA[Entrance to the museum is free, as it is now being run by the National Historical Commission of the Philippines. Upon entering, you will watch a video giving you the background of the brothers Leon and Galicano Apacible, and their participation in Philippine history, in particular the quest for independence against American colonialism. Leon was a lawyer, while Galicano was a doctor. Both were involved in the quest for Philippine independence.]]></item>
+        <item><![CDATA[Entrance to the museum is free, as it is now being run by the National Historical Commission of the Philippines. Upon entering, you will watch a video giving you the background of the brothers Leon and Galicano Apacible, and their participation in Philippine history, in particular the quest for independence against American colonialism. Leon was a lawyer, while Apacible was a doctor. Both were involved in the quest for Philippine independence.]]></item>
     </string-array>
 
     <string-array name="museo_marino_at_agoncillo">
         <item>Museo nina Marino at Agoncillo</item>
         <item>#14 Calle Marcela Agoncillo, Taal</item>
-        <item><![CDATA[ Not only would you learn about the Philippine Flag and that it was first sewn by Marcela Agoncillo, you would also learn about Philippine history, in particular the revolution against Spain, of which Marcela was a part. Equally interesting is the house itself, which dates back to the Spanish era in the Philippines. Touring the house would give you an idea of what life was like during those days.]]></item>
+        <item><![CDATA[Not only would you learn about the Philippine Flag and that it was first sewn by Marcela Agoncillo, you would also learn about Philippine history, in particular the revolution against Spain, of which Marcela was a part. Equally interesting is the house itself, which dates back to the Spanish era in the Philippines. Touring the house would give you an idea of what life was like during those days.]]></item>
     </string-array>
 
     <string-array name="museo_malvar">
         <item>Museo ni Miguel Malvar</item>
         <item>Sto. Tomas, Batangas, Santo Tomas</item>
-        <item><![CDATA[Definitely, one of the must see places in Sto. Tomas. It consists of 2 galleries. One shouldn\'t miss Malvar\'s tomb or mausoleum when you drop by the museum. I]]></item>
+        <item><![CDATA[Definitely, one of the must see places in Sto. Tomas. It consists of 2 galleries. One shouldn\'t miss Malvar\'s tomb or mausoleum when you drop by the museum.]]></item>
     </string-array>
 
     <string-array name="ez_museum">
@@ -216,7 +216,7 @@
     <string-array name="fortune_island">
         <item>Fortune Island</item>
         <item>Nasugbu, Luzon</item>
-        <item><![CDATA[If you want to experience clean water, picturesque and thrills near Manila, definitely this place is for you. From the Nasugbo town proper, have to take a boat ride going to the island. It takes about one and a half hour. Bring your own food and water since there are no stores on the island. You can go snorkling, so you can bring some gear.]]></item>
+        <item><![CDATA[If you want to experience clean water, picturesque and thrills near Manila, then definitely this place is for you. From the Nasugbo town proper, have to take a boat ride going to the island. It takes about one and a half hour. Bring your own food and water since there are no stores on the island. You can go snorkeling, so you can bring some gear.]]></item>
     </string-array>
 
     <string-array name="sombrero_island">
@@ -228,7 +228,7 @@
     <string-array name="isla_verde">
         <item>Isla Verde</item>
         <item>Isla Verde, Batangas City</item>
-        <item><![CDATA[The Verde Island Passage is famous for the diversity of its marine life and people come from around the world to our island to dive the surrounding reefs. Our Resort is right at the boundary of the Declared Marine Park, providing easy snorkelling access to the shallower corals and fish. ]]></item>
+        <item><![CDATA[The Verde Island Passage is famous for the diversity of its marine life and people come from around the world to our island to dive the surrounding reefs. Our Resort is right at the boundary of the Declared Marine Park, providing easy snorkeling access to the shallower corals and fish. ]]></item>
     </string-array>
 
     <string-array name="lunod_island">
@@ -247,7 +247,7 @@
     <string-array name="cape_santiago_lighthouse">
         <item>Cape Santiago Lighthouse</item>
         <item>Calatagan, Luzon</item>
-        <item><![CDATA[The lighthouse was built in the 1890s during the Spanish period. Upon approaching, you will be taken back in time. Be warned though that you cannot simply walk in as the place is surrounded by a steel bar fence and the gate is locked. The good news is that there is a resident caretaker who is very friendly and lets in tourists for free. ]]></item>
+        <item><![CDATA[The lighthouse was built in the 1890s during the Spanish period. Upon approaching, you will be taken back in time. Be warned though that you cannot simply walk in as the place is surrounded by a steel bar fence and the gate is locked. The good news is that there is a resident caretaker who is very friendly and lets in tourists for free.]]></item>
     </string-array>
 
     <!--Mountain Entries-->
@@ -272,7 +272,7 @@
     <string-array name="manabu_peak">
         <item>Manabu Peak</item>
         <item>Sto. Tomas, Luzon</item>
-        <item><![CDATA[The trail, which is known for its Stations of the Cross was a mere hike. The route is shaped like a rosary to be undertaken counter clockwise. At its peak is a cross to mark the summit. Aside from a popular destination for Holy Week, it is also known for the civet coffee being brewed amidst its forests. Civets apparently live within the mountain.]]></item>
+        <item><![CDATA[The trail, which is known for its Stations of the Cross is a mere hike. The route is shaped like a rosary to be undertaken counter clockwise. At its peak is a cross to mark the summit. Aside from a popular destination for Holy Week, it is also known for the civet coffee being brewed amidst its forests. Civets apparently live within the mountain.]]></item>
     </string-array>
 
     <string-array name="mt_talamitam">

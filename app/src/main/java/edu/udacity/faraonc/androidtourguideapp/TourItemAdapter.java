@@ -1,5 +1,6 @@
 package edu.udacity.faraonc.androidtourguideapp;
 
+
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
@@ -15,17 +16,33 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by ConardJames on 12/31/2017.
+ * The adapter to display tour items as a list.
+ *
+ * @author ConardJames
+ * @version 010418-01
  */
-
 class TourItemAdapter extends ArrayAdapter {
 
+    /**
+     * Create and adapter container tour items.
+     *
+     * @param context   for resource access.
+     * @param tourItems the arraylist of TourItem
+     */
     TourItemAdapter(Context context, ArrayList<TourItem> tourItems) {
         super(context, 0, tourItems);
     }
 
     @NonNull
     @Override
+    /**
+     * Get the view for each entry.
+     *
+     * @param   position    current index in the adapter.
+     * @param   convertView recycled view.
+     * @param   parent      contains the view.
+     * @return  the view for the entry.
+     */
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         View listItemView = convertView;
@@ -55,6 +72,9 @@ class TourItemAdapter extends ArrayAdapter {
         return listItemView;
     }
 
+    /**
+     * For caching.
+     */
     private class ViewHolder {
         private TextView entryName;
         private TextView entryLocation;

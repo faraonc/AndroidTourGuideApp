@@ -1,7 +1,6 @@
 package edu.udacity.faraonc.androidtourguideapp;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -9,14 +8,24 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 /**
- * A simple {@link Fragment} subclass.
+ * The fragment for cuisine.
+ *
+ * @author ConardJames
+ * @version 010418-01
  */
 public class CuisineFragment extends Fragment {
 
     @Override
+    /**
+     * Create the view for the fragment.
+     *
+     * @param   inflater    for creating the view
+     * @param   container   contains the view.
+     * @param   savedInstanceState  contains the saved state if not null.
+     * @return the view for the entry.
+     */
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_pager, container, false);
 

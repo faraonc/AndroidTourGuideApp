@@ -2,21 +2,30 @@ package edu.udacity.faraonc.androidtourguideapp;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * A simple {@link Fragment} subclass.
+ * The fragment for landmark.
+ *
+ * @author ConardJames
+ * @version 010418-01
  */
 public class LandmarkFragment extends Fragment {
 
     @Override
+    /**
+     * Create the view for the fragment.
+     *
+     * @param   inflater    for creating the view
+     * @param   container   contains the view.
+     * @param   savedInstanceState  contains the saved state if not null.
+     * @return the view for the entry.
+     */
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_pager, container, false);
 
