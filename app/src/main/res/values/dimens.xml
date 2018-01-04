@@ -10,5 +10,16 @@
     <dimen name="list_image_height">90dp</dimen>
     <dimen name="list_image_width">90dp</dimen>
     <dimen name="line_break_height">1dp</dimen>
-
+    <dimen name="center_dimen">8dp</dimen>
+    <dimen name="line_spacing">3dp</dimen>
+    <dimen name="content_spacing">2.5dp</dimen>
+    <dimen name="layout_dimen">16dp</dimen>
+    <dimen name="layout_dimen_top">4dp</dimen>
+    <dimen name="padding_dimen_bottom">4dp</dimen>
+    <dimen name="header_image_height">200dp</dimen>
+    <dimen name="home_image_height">300dp</dimen>
+    <dimen name="nav_image_width">330dp</dimen>
+    <dimen name="list_dimen_right">4dp</dimen>
+    <dimen name="list_dimen_vertical">2dp</dimen>
+    <dimen name="list_item_text_size">12sp</dimen>
 </resources>
